@@ -1,1 +1,5 @@
-print ("hello world")
+import sys
+import multirocessing as mp
+
+print("Python version %s " str(sys.version))
+print("Cores          %s "str(mp.cpu_count()))
