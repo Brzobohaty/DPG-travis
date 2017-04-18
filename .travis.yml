@@ -4,6 +4,5 @@ python:
   - "2.7"
   - "3.5"
   
-
-script
+script:
   - python hello.py
